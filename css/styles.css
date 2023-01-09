@@ -1,0 +1,338 @@
+@import url("https://fonts.googleapis.com/css2?family=Chonburi&family=Oswald:wght@200&display=swap" );
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.promo {
+    text-align: center;
+    font-family:'Chonburi';
+    color:darkslateblue;
+    background-color: rgb(245, 146, 249);
+}
+.iniciopag {
+    padding-bottom: 20px;
+    background-image:url(../assets/img/fondo-abstracto-diseno-holograma-iridiscente_1048-13602.webp);
+    background-repeat: no-repeat;   
+    background-size: 100%;
+    position: relative;
+}
+
+    .logo1{
+    font-family: 'Chonburi', cursive;
+    font-size: 30px;
+    color:rgb(218, 136, 197);
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.33);
+}
+
+.menufijo{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    
+}
+
+.menu{
+    
+    display: flex;
+    position: relative;
+    align-items: flex-end;
+    padding-right: 6px;
+    list-style: none;
+    text-decoration:underline;
+    font-family: 'Chonburi', cursive;
+    font-size: 15px;
+    gap: 20px;
+    color:rgba(154, 97, 223, 0.782);
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.254);
+}
+
+.main{
+    background-color: antiquewhite;
+    padding-bottom: 20px;
+}
+.hero-main{
+
+height: 315px;
+width: 385px;    
+display:flex;
+top: 200px;
+bottom: 0;
+
+}
+
+.new-drop {
+    font-family:'chonburi';
+    font-size:x-large;
+    color:khaki;
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.358);
+    text-decoration:underline;
+    text-align: center;
+   
+}
+.carrete{
+    position:relative;
+    height:150px;
+    width:200px;
+    margin:20px;
+    display:flex;
+    justify-content:flex-start;
+    gap:100px;
+}
+
+.footer{
+    margin: 0;
+    padding: 20px;
+    position: bottom;
+   background-image: url(../assets/img/fondo-abstracto-diseno-holograma-iridiscente_1048-13602.webp);
+  background-repeat: no-repeat;   
+  background-size: 100%;
+  
+    
+}
+
+.primera {
+    display:flex;
+    flex-direction: row;
+    position: relative;
+    
+}
+.compra {
+    color:darkslateblue;
+    font-family: 'Chonburi';
+    padding-top: 20px;
+    margin-left: 30px;
+
+}
+
+.carro {
+    padding-top: 50px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-items: flex-start;
+    position:absolute;
+    top:0;
+    left:20px;
+    
+    
+
+
+
+    
+}
+
+.mercadopago{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    position:absolute;
+    top: 170px;
+    margin:35px;
+
+}
+
+
+.medio {  
+    color:darkslateblue;
+    font-family: 'Chonburi', cursive;
+    text-align: center;
+    line-height: 40pt;
+    
+}
+
+
+.instapic {
+    position:absolute;
+    bottom:-200px;
+    right:50px;
+    display: flex;
+    width:150px;
+    height:150px ;
+    
+
+
+}
+.insta {
+    color:darkslateblue;
+    font-family: 'Chonburi', cursive;
+    text-align: end;
+    margin-right:20px
+    
+
+}
+.seguinos {
+    color:darkslateblue;
+    font-family: 'Chonburi', cursive;
+    text-align: end;
+    margin-right:20px    
+}
+.ultimo {
+    
+        
+        font-family:'Chonburi';
+        color:darkslateblue;
+        display:flex;
+        justify-content:space-between;
+        margin-top: 30px;
+        margin-right: 20px;
+        margin-left: 20px;
+        }
+.comocomprar {
+    height: 100vh;
+    background-color: antiquewhite;
+    padding-bottom: 20px;
+    font-family: 'Chonburi';
+    color: darkslateblue;
+    text-align: center;
+    line-height: 50px;
+}
+.como-comprar{
+    text-align: start;
+    text-decoration: underline;
+}
+.mainus{
+  height: 90hv;
+    background-color:antiquewhite; 
+   padding:20px;   
+   color:darkslateblue;
+   font-family:'Chonburi';
+   font-size: x-large;
+
+
+} 
+
+.divus{
+    background-color: rgba(207, 134, 205, 0.528);
+    border-style: inset;
+    padding:50px;
+    margin:100px;
+    width:500px;
+    height:400px;
+    text-align:start;
+    
+
+}
+.imagenus{
+    display:flex;
+    width: 300px;
+    height: 300px;
+    position:absolute;
+    top: 250px;
+    right: 200px;
+}
+.sectiontienda{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: antiquewhite;
+}
+.sectioncards{
+    display:flex;
+    flex-direction: row;
+    width: 70%;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    gap:70px;
+    align-items: center;
+    padding:20px 0px;
+}
+.card img{
+    width:100px;
+    
+}
+.titulo{
+    
+    text-align: center;
+    font-family: 'Chonburi';
+    color: darkslateblue;
+    font-size:x-small;
+}
+.precio{
+    text-align: center;
+    font-family: 'Chonburi';
+    color: darkslateblue;
+    font-size:x-small;
+}
+
+    
+
+
+
+.comprar{
+    margin-left: 25px;
+    text-align: center;
+    font-family: 'Chonburi';
+    color: darkslateblue;
+    font-size:x-small;
+}
+
+
+
+
+
+.formulario{
+    
+    width: 400px;
+    
+    margin: auto;
+    background-color: antiquewhite;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top:30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    
+}
+.legend{
+    font-size: 30px;
+    font-family: 'Chonburi';
+    color:darkslateblue;
+    text-align: center;
+    margin:0;
+    margin-bottom: 10px;
+    
+}
+
+.input{
+    width: 100%;
+    margin-bottom: 20px;
+    padding:7px;
+    box-sizing: border-box;
+    font-size: 15px;
+    background-color: rgba(144, 131, 218, 0.486);
+    border:none;
+}
+.textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding:7px;
+    box-sizing: border-box;
+    font-size: 15px;
+    background-color: rgba(144, 131, 218, 0.486);
+    border:none;
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+.inputboton{
+    width: 100%;
+    margin-bottom: 20px;
+    padding:5px;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: 'chonburi';
+    color:darkslateblue;
+    background-color: rgba(85, 76, 138, 0.411);
+    border:none;
+    padding: 15px;
+
+}
+.span{
+    font-size: 15px;
+    font-family: 'chonburi';
+    color:darkslateblue;
+}
